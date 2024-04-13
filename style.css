@@ -1,0 +1,39 @@
+/* CARROUSSEL BS */
+.carousel-item img {
+    width: 100%;
+    height: auto; /* Utilisation de 'auto' pour maintenir le rapport hauteur/largeur */
+    border-radius: 40px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 3vw; /* Utilisation de 'vw' pour une marge qui s'ajuste automatiquement */
+    margin-top: 7vw; /* Utilisation de 'vw' pour une marge qui s'ajuste automatiquement */
+}
+
+.carousel-item img:hover {
+    opacity: 0.9; /* Réduisez l'opacité au survol pour créer un effet de transparence */
+}
+
+.carousel {
+    max-width: 80%; /* Utilisation de pourcentage pour une largeur maximale adaptable */
+    margin: auto; /* Pour centrer le carrousel horizontalement */
+}
+
+.container1 {
+    padding: 4vw; /* Utilisation de 'vw' pour un rembourrage qui s'ajuste automatiquement */
+    background-color: whitesmoke;
+}
+
+/* Utilisation de médias queries pour ajuster la taille de la police sur les écrans plus petits */
+@media only screen and (max-width: 768px) {
+    .textenote {
+        font-size: 16px; /* Redimensionnement de la police pour les écrans plus petits */
+    }
+}
+
+/* OK CARROUSSEL BS */
+
+.textenote{
+    font-size: 20px;
+    font-family: Helvetica;
+    margin-top: 30px;
+}
