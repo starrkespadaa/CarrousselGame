@@ -2,7 +2,7 @@
 .carousel-item img {
     width: 100%;
     height: auto; /* Utilisation de 'auto' pour maintenir le rapport hauteur/largeur */
-    border-radius: 40px;
+    border-radius: 15px;
     object-fit: cover;
     display: block;
     margin-bottom: 3vw; /* Utilisation de 'vw' pour une marge qui s'ajuste automatiquement */
