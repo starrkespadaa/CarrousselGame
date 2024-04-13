@@ -49,5 +49,6 @@
         display: block; /* Afficher les éléments de texte en bloc */
         text-align: left; /* Alignement du texte à gauche */
         margin: 10px auto; /* Marge entre les éléments de texte */
+        font-size: 5px;
     }
 }
