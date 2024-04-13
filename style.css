@@ -42,7 +42,14 @@
 @media only screen and (max-width: 768px) {
     .carousel-caption h5,
     .carousel-caption p {
-        font-size: 14px; /* Redimensionnement de la taille du texte dans le carrousel pour les écrans de smartphone */
+        font-size: 13px; /* Redimensionnement de la taille du texte dans le carrousel pour les écrans de smartphone */
+    }
+}
+
+/* Utilisation de médias queries pour ajuster la taille du carrousel uniquement pour les iPhones */
+@media only screen and (max-width: 768px) {
+    .carousel {
+        max-width: 120%; /* Exemple d'une largeur maximale dépassant 100% */
     }
 }
 
